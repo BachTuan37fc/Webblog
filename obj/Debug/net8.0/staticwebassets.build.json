@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YOj2+0EX+YPXNLDnVJcYNNyHuFa2hJOHC5M0h3ls17M=",
+  "Hash": "SC1kHMZyGhKsIE+AqFA7ZL93bQoBUQSXde5eTYG1eLc=",
   "Source": "blogs",
   "BasePath": "_content/blogs",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "D:\\ASPdotNet\\blogs\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blogs.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\css\\ajax-loader.gif",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "css/site.css",
+      "RelativePath": "assets/css/ajax-loader.gif",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\assets\\css\\ajax-loader.gif"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\favicon.ico",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\css\\normalize.css",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "assets/css/normalize.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\assets\\css\\normalize.css"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\js\\site.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\css\\vendor.css",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "js/site.js",
+      "RelativePath": "assets/css/vendor.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\assets\\css\\vendor.css"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\icomoon\\fonts\\icomoon.eot",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "RelativePath": "assets/icomoon/fonts/icomoon.eot",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\assets\\icomoon\\fonts\\icomoon.eot"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\icomoon\\fonts\\icomoon.svg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "RelativePath": "assets/icomoon/fonts/icomoon.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\icomoon\\fonts\\icomoon.svg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\icomoon\\fonts\\icomoon.ttf",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "RelativePath": "assets/icomoon/fonts/icomoon.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\assets\\icomoon\\fonts\\icomoon.ttf"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\icomoon\\fonts\\icomoon.woff",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "RelativePath": "assets/icomoon/fonts/icomoon.woff",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\icomoon\\fonts\\icomoon.woff"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\icomoon\\icomoon.css",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "RelativePath": "assets/icomoon/icomoon.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\assets\\icomoon\\icomoon.css"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\icomoon\\Read Me.txt",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "RelativePath": "assets/icomoon/Read Me.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,15 +223,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\icomoon\\Read Me.txt"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\icomoon\\selection.json",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "RelativePath": "assets/icomoon/selection.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\assets\\icomoon\\selection.json"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\app-store.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "RelativePath": "assets/images/app-store.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,15 +261,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\app-store.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\chocolat\\close.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "RelativePath": "assets/images/chocolat/close.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,15 +280,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\chocolat\\close.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\chocolat\\fullscreen-black.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "RelativePath": "assets/images/chocolat/fullscreen-black.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,15 +299,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\chocolat\\fullscreen-black.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\chocolat\\fullscreen.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "RelativePath": "assets/images/chocolat/fullscreen.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,15 +318,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\chocolat\\fullscreen.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\chocolat\\left.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "RelativePath": "assets/images/chocolat/left.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\chocolat\\left.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\chocolat\\loader.gif",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "RelativePath": "assets/images/chocolat/loader.gif",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -356,15 +356,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\chocolat\\loader.gif"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\chocolat\\right.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "RelativePath": "assets/images/chocolat/right.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -375,15 +375,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\chocolat\\right.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\client-image1.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "RelativePath": "assets/images/client-image1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -394,15 +394,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\client-image1.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\client-image2.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "RelativePath": "assets/images/client-image2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -413,15 +413,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\client-image2.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\client-image3.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "RelativePath": "assets/images/client-image3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -432,15 +432,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\client-image3.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\client-image4.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "RelativePath": "assets/images/client-image4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -451,15 +451,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\client-image4.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\client-image5.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "RelativePath": "assets/images/client-image5.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -470,15 +470,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\client-image5.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\curly-divider.svg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "RelativePath": "assets/images/curly-divider.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -489,15 +489,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\curly-divider.svg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\default.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "RelativePath": "assets/images/default.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -508,15 +508,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\default.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\device.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "RelativePath": "assets/images/device.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -527,15 +527,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\device.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\google-play.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "RelativePath": "assets/images/google-play.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -546,15 +546,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\google-play.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\item.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "RelativePath": "assets/images/item.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -565,15 +565,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\item.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\item1.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "RelativePath": "assets/images/item1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -584,15 +584,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\item1.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\item3.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "RelativePath": "assets/images/item3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -603,15 +603,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\item3.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\item4.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "RelativePath": "assets/images/item4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -622,15 +622,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\item4.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\item5.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "RelativePath": "assets/images/item5.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -641,15 +641,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\item5.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\leaf.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "RelativePath": "assets/images/leaf.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,15 +660,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\leaf.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\main-banner1.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "RelativePath": "assets/images/main-banner1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -679,15 +679,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\main-banner1.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\main-banner2.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "RelativePath": "assets/images/main-banner2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -698,15 +698,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\main-banner2.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\main-logo.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "RelativePath": "assets/images/main-logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -717,15 +717,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\main-logo.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\ns-arrow-right.svg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "RelativePath": "assets/images/ns-arrow-right.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -736,15 +736,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\ns-arrow-right.svg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\pattern1.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "RelativePath": "assets/images/pattern1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -755,15 +755,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\pattern1.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\pattern2.png",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "RelativePath": "assets/images/pattern2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -774,15 +774,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\pattern2.png"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\post-img1.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "RelativePath": "assets/images/post-img1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -793,15 +793,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\post-img1.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\post-img2.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
+      "RelativePath": "assets/images/post-img2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -812,15 +812,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\post-img2.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\post-img3.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "RelativePath": "assets/images/post-img3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -831,15 +831,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\post-img3.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\product-item1.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "RelativePath": "assets/images/product-item1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -850,15 +850,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product-item1.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\product-item2.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "RelativePath": "assets/images/product-item2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -869,15 +869,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product-item2.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\product-item3.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
+      "RelativePath": "assets/images/product-item3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -888,15 +888,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product-item3.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\product-item4.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
+      "RelativePath": "assets/images/product-item4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -907,15 +907,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product-item4.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\product-item5.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "RelativePath": "assets/images/product-item5.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -926,15 +926,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product-item5.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\product-item6.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "RelativePath": "assets/images/product-item6.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -945,15 +945,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product-item6.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\product-item7.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/bootstrap/LICENSE",
+      "RelativePath": "assets/images/product-item7.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -964,15 +964,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product-item7.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\product-item8.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "assets/images/product-item8.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -983,15 +983,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product-item8.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\single-image.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "RelativePath": "assets/images/single-image.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1002,15 +1002,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\single-image.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\tab-item1.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "assets/images/tab-item1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1021,15 +1021,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\tab-item1.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\tab-item2.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "RelativePath": "assets/images/tab-item2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1040,15 +1040,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\tab-item2.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\tab-item3.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "RelativePath": "assets/images/tab-item3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1059,15 +1059,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\tab-item3.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\tab-item4.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "RelativePath": "assets/images/tab-item4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1078,15 +1078,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\tab-item4.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\tab-item5.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "RelativePath": "assets/images/tab-item5.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1097,15 +1097,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\tab-item5.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\tab-item6.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "RelativePath": "assets/images/tab-item6.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1116,15 +1116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\tab-item6.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\tab-item7.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "assets/images/tab-item7.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1135,15 +1135,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\tab-item7.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\images\\tab-item8.jpg",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "assets/images/tab-item8.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1154,15 +1154,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\tab-item8.jpg"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\js\\jquery-1.11.0.min.js",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "assets/js/jquery-1.11.0.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1173,15 +1173,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\assets\\js\\jquery-1.11.0.min.js"
     },
     {
-      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\js\\modernizr.js",
       "SourceId": "blogs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
       "BasePath": "_content/blogs",
-      "RelativePath": "lib/jquery/LICENSE.txt",
+      "RelativePath": "assets/js/modernizr.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1192,7 +1192,102 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\assets\\js\\modernizr.js"
+    },
+    {
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\js\\plugins.js",
+      "SourceId": "blogs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
+      "BasePath": "_content/blogs",
+      "RelativePath": "assets/js/plugins.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\plugins.js"
+    },
+    {
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\js\\script.js",
+      "SourceId": "blogs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
+      "BasePath": "_content/blogs",
+      "RelativePath": "assets/js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\script.js"
+    },
+    {
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\js\\slideNav.js",
+      "SourceId": "blogs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
+      "BasePath": "_content/blogs",
+      "RelativePath": "assets/js/slideNav.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\slideNav.js"
+    },
+    {
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\assets\\js\\slideNav.min.js",
+      "SourceId": "blogs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
+      "BasePath": "_content/blogs",
+      "RelativePath": "assets/js/slideNav.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\slideNav.min.js"
+    },
+    {
+      "Identity": "D:\\ASPdotNet\\blogs\\wwwroot\\style.css",
+      "SourceId": "blogs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASPdotNet\\blogs\\wwwroot\\",
+      "BasePath": "_content/blogs",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
     }
   ]
 }
