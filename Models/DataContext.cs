@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using blogs.Areas.Admin.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace blogs.Models
@@ -13,5 +14,6 @@ namespace blogs.Models
 
         }
         public DbSet<tblMenu> Menus { get; set; }
+        public DbSet<AdminMenu> AdminMenus { get; set; }
     }
 }
