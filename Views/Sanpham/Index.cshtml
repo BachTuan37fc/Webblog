@@ -1,0 +1,6 @@
+@model IEnumerable<aznews.ViewModels.SanPhamVM>	
+@{
+    Layout = "_DanhSachSP";
+}
+	<!-- Product -->
+@await Html.PartialAsync("Product", Model)
