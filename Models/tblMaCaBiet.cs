@@ -15,6 +15,6 @@ namespace aznews.Models
         public string? MCB { get; set; }
         public int ID_Sach { get; set; }
         public string? TrangThai { get; set; }
-        public string? ViTri { get; set; }
+        
     }
 }
