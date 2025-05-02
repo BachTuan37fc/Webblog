@@ -13,8 +13,11 @@ namespace aznews.Models
         [Key]
         public int ID_MCB { get; set; }
         public string? MCB { get; set; }
+        [ForeignKey("IdSachNavigation")]
         public int ID_Sach { get; set; }
         public string? TrangThai { get; set; }
+
+        public virtual tblSach IdSachNavigation { get; set; }
         
     }
 }

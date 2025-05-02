@@ -20,6 +20,7 @@ namespace aznews.Models
         public DbSet<tblNhaXuatBan> NhaXuatBans { get; set;}
         public DbSet<tblSach> Sachs { get; set;}
         public DbSet<tblDanhMuc> DanhMucs { get; set;}
+        public DbSet<tblPhieuMuon> PhieuMuons { get; set;}
         
     }
 }
