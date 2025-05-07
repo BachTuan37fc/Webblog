@@ -54,8 +54,10 @@ namespace aznews.Controllers
     }  
     public IActionResult Detail(int id) 
     {
-        Console.WriteLine("o day");
         var data = _context.Sachs.Include(p => p.IdDmNavigation).SingleOrDefault(p => p.ID_Sach == id);
+        int Soluong = _context.MaCaBiets
+    .Count(m => m.ID_Sach == id && m.TrangThai == "Chưa mượn");
+
         if (data == null)
         {
            TempData["Message"] = $"Không thấy sản phẩm có mã {id}";
@@ -66,28 +68,33 @@ namespace aznews.Controllers
             TenSP = data.TenSach,
             Hinh = data.Hinh,
             MoTa = data.MoTa ?? string.Empty,
-            DanhMuc = data.IdDmNavigation.TenDM
+            DanhMuc = data.IdDmNavigation.TenDM,
+            Soluong = Soluong
         
         };
+        
         return View("Detail", result);
     }
     [HttpPost]
-public IActionResult Muon(int id)
+public IActionResult Muon(int ID_Sach)
 {
     // Tìm mã cá biệt chưa được mượn
-    var phieumuon = _context.MaCaBiets.FirstOrDefault(m => m.ID_MCB == id && m.TrangThai == "Chưa mượn");
+    var phieumuon = _context.MaCaBiets
+    .Include(m => m.IdSachNavigation)
+    .FirstOrDefault(m => m.ID_Sach == ID_Sach && m.TrangThai == "Chưa mượn");
 
     if (phieumuon == null)
     {
         TempData["Error"] = "Không còn bản sao sách này có sẵn để mượn";
-        return RedirectToAction("Detail", new { id = id });
+        return RedirectToAction("Detail", new { id = ID_Sach });
     }
     var pm = new tblPhieuMuon
     {
         ID_MCB = phieumuon.ID_MCB,
         NgayMuon = DateTime.Now,
         NgayTra = DateTime.Now.AddDays(7), // hoặc quy định khác
-        TrangThai = "Pending"
+        TrangThai = "Pending",
+        MaDG = "1"
     };
 
     // Cập nhật trạng thái mã cá biệt
@@ -103,4 +110,6 @@ public IActionResult Muon(int id)
 }
   
     }
+
+
 }

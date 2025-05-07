@@ -9,7 +9,7 @@
     </div>
 
     <div class="container shadow p-5">
-        <form method="post" asp-action="Create">
+        <form method="post" asp-area="Admin" asp-action="Create" asp-controller="Sach" enctype="multipart/form-data">
             <div class="form-row">
                 <div class="form-group col-md-6 mb-3">
                     <label>Ten Sach</label>
@@ -42,7 +42,14 @@
                             asp-items="@(new SelectList(ViewBag.sList, "Value", "Text"))">
                     </select>
                 </div>
-            
+                <div class="form-group col-md-6 mb-3">
+                    <label>Hinh</label>
+                    <input type="file" class="form-control" name="Hinh" accept="image/*">
+                </div> 
+                <div class="form-group col-md-6 mb-3">
+    <label>Số lượng bản sao</label>
+    <input type="number" class="form-control" asp-for="SoLuong" placeholder="Nhập số lượng...">
+</div>
             </div>
 
             <a asp-controller="Menu" asp-action="Index" class="btn btn-lg btn-warning p-2">

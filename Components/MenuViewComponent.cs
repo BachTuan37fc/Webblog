@@ -19,10 +19,6 @@ namespace aznews.Components
                       select m).ToList();
 
     // Log danh sách menu ra console
-    foreach (var menu in listOfMenu)
-    {
-        Console.WriteLine($"Menu ID: {menu.MenuID}, Name: {menu.MenuName}, Position: {menu.Position}");
-    }
 
     return await Task.FromResult((IViewComponentResult)View(listOfMenu));
 }

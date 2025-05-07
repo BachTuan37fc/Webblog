@@ -1,0 +1,60 @@
+@using aznews.Models;
+@model IList<tblPhieuMuon>
+    
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<main id="main" class="main">
+        <div class="pagetitle">
+            <h2>Danh sách phiếu mượn</h2>
+
+            <p>
+                <a type="button" class="btn btn-success" asp-area="Admin" asp-controller="PhieuMuon" asp-action="Create">
+                    <i class="bi bi-file-earmark-text me-1"></i>Add a PhieuMuon</a>
+                    <section class="section dashboard">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="car recent-sales overflow-auto">
+                                    <div class="card-body mt-4">
+                                        <table class="table table-borderless datatable">
+                                            <thead>
+                                                <tr>
+                                                    <th class="col-3 text-center">IDPM</th>
+                                                    <th class="col-2 text-center">MaDocGia</th>
+                                                    <th class="col-2 text-center">TenSach</th>
+                                                    <th class="col-2 text-center">NgayMuon</th>
+                                                    <th class="col-1 text-center">NgayTra</th>
+                                                    <th class="col-1 text-center">TrangThai</th>
+                                                    <th class="col-1 text-center">Functions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach(var item in Model) 
+                                                {
+                                                    <tr>
+                                                        <td class="text-center" scope="row">@item.ID_PM</td>
+                                                        <td class="text-left text-primary" scope="row">
+                                                            <a asp-area="Admin" asp-controller="Menu" asp-action="Details" asp-route-id="@item.ID_PM">@item.MaDG</a></td>
+                                                        <td class="text-center" scope="row">@item.IdMCBNavigation?.IdSachNavigation.TenSach</td>
+                                                        <td class="text-center" scope="row">@item.NgayMuon</td>
+                                                        <td class="text-center" scope="row">@item.NgayTra</td>
+                                                        <td class="text-center" scope="row">@item.TrangThai</td>
+                                                        
+                                                        <td class="text-center" scope="row">
+                                                                <a asp-area="Admin" asp-controller="PhieuMuon" asp-action="Edit" asp-route-id="@item.ID_PM" class="btn btn-primary btn-sm" title="Edit the PhieuMuon"><i class="bi bi-pencil"></i></a>
+                                                                <a asp-area="Admin" asp-controller="PhieuMuon" asp-action="DeleteP" asp-route-id="@item.ID_PM" class="btn btn-danger btn-sm" title="Delete the PhieuMuon"><i class="bi bi-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+            </p>
+        </div>
+    </main>
+

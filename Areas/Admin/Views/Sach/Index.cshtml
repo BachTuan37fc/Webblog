@@ -1,5 +1,7 @@
-@using aznews.Models;
-@model IList<tblSach>
+
+@using static aznews.ViewModels.SachVM;
+@model IList<SachWithCountViewModel>
+
     
 @{
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
@@ -26,6 +28,7 @@
                                                     <th class="col-2 text-center">NamXB</th>
                                                     <th class="col-1 text-center">MoTa</th>
                                                     <th class="col-1 text-center">Anh</th>
+                                                    <th class="col-1 text-center">Chưa mượn</th>
                                                     <th class="col-1 text-center">Functions</th>
                                                 </tr>
                                             </thead>
@@ -33,16 +36,17 @@
                                                 @foreach(var item in Model) 
                                                 {
                                                     <tr>
-                                                        <td class="text-center" scope="row">@item.ID_Sach</td>
+                                                        <td class="text-center" scope="row">@item.Sachs.ID_Sach</td>
                                                         <td class="text-left text-primary" scope="row">
-                                                            <a asp-area="Admin" asp-controller="Menu" asp-action="Details" asp-route-id="@item.ID_Sach">@item.TenSach</a></td>
-                                                        <td class="text-center" scope="row">@item.TacGia</td>
-                                                        <td class="text-center" scope="row">@item.NamXB</td>
-                                                        <td class="text-center" scope="row">@item.MoTa</td>
-                                                        <td class="text-center" scope="row">@item.Hinh</td>
+                                                            <a asp-area="Admin" asp-controller="Menu" asp-action="Details" asp-route-id="@item.Sachs.ID_Sach">@item.Sachs.TenSach</a></td>
+                                                        <td class="text-center" scope="row">@item.Sachs.TacGia</td>
+                                                        <td class="text-center" scope="row">@item.Sachs.NamXB</td>
+                                                        <td class="text-center" scope="row">@item.Sachs.MoTa</td>
+                                                        <td class="text-center" scope="row">@item.Sachs.Hinh</td>
+                                                        <td class="text-center">@item.SoLuongChuaMuon</td>
                                                         <td class="text-center" scope="row">
-                                                                <a asp-area="Admin" asp-controller="Sach" asp-action="Edit" asp-route-id="@item.ID_Sach" class="btn btn-primary btn-sm" title="Edit the Sach"><i class="bi bi-pencil"></i></a>
-                                                                <a asp-area="Admin" asp-controller="Sach" asp-action="Delete" asp-route-id="@item.ID_Sach" class="btn btn-danger btn-sm" title="Delete the Sach"><i class="bi bi-trash"></i></a>
+                                                                <a asp-area="Admin" asp-controller="Sach" asp-action="Edit" asp-route-id="@item.Sachs.ID_Sach" class="btn btn-primary btn-sm" title="Edit the Sach"><i class="bi bi-pencil"></i></a>
+                                                                <a asp-area="Admin" asp-controller="Sach" asp-action="Delete" asp-route-id="@item.Sachs.ID_Sach" class="btn btn-danger btn-sm" title="Delete the Sach"><i class="bi bi-trash"></i></a>
                                                         </td>
                                                     </tr>
                                                 }

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,8 +26,13 @@ namespace aznews.Models
         public string? MoTa { get; set; }
         public string? Hinh { get; set; }
         public string? SoTrang { get; set; }
+        [NotMapped]
+public int SoLuong { get; set; }
 
+
+        [ValidateNever]
         public virtual tblDanhMuc IdDmNavigation { get; set; }
+        [ValidateNever]
         public virtual tblNhaXuatBan IdNxbNavigation { get; set; }
     }
 }

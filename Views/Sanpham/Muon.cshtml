@@ -1,0 +1,38 @@
+@model aznews.ViewModels.CTSanPhamVM	
+
+						<form asp-action="Muon" method="post">
+    <input type="hidden" name="ID_MCB" value="@Model.ID" />
+
+    <div class="p-t-33">
+        <div class="flex-w flex-r-m p-b-10">
+            <div class="size-203 flex-c-m respon6">
+                Chọn thời hạn mượn
+            </div>
+
+            <div class="size-204 respon6-next">
+                <div class="rs1-select2 bor8 bg0">
+                    <select class="js-select2" name="NgayTraOption" required>
+                        <option disabled selected>-- Chọn thời gian trả --</option>
+                        <option value="3">3 ngày</option>
+                        <option value="5">5 ngày</option>
+                        <option value="7">7 ngày</option>
+                        <option value="14">14 ngày</option> 
+						@* ?chọn thời hạn mượn là ngày tháng năm cụ thể luôn, không nên để ngày như vậy? *@
+                    </select>
+                    <div class="dropDownSelect2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-w flex-r-m p-b-10">
+            <div class="size-204 flex-w flex-m respon6-next">
+                <button asp-action="Muon" type="submit" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+                    Mượn sách 
+					@* khi nhấn mượn sách thì nó có thể mượn được sách hay không?--> lưu đc vào cơ sở dữ liệu và bên admin hay không *@
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+
+

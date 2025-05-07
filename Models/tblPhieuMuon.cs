@@ -13,11 +13,12 @@ namespace aznews.Models
         [Key]
         public int ID_PM { get; set; }
 
-        public string? MDG { get; set; }
+        [Column("MaDG")]
+        public string? MaDG { get; set; }
         [ForeignKey("IdMCBNavigation")]
-        public int ID_MCB { get; set; }
-        public DateTime NgayMuon { get; set; } = DateTime.Now;
-        public DateTime NgayTra { get; set; }
+        public int? ID_MCB { get; set; }
+        public DateTime? NgayMuon { get; set; } = DateTime.Now;
+        public DateTime? NgayTra { get; set; }
         public string? TrangThai {get; set; }
 
         public virtual tblMaCaBiet IdMCBNavigation { get; set; }
