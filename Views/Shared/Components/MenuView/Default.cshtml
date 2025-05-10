@@ -7,7 +7,7 @@
 			<div class="top-bar">
 				<div class="content-topbar flex-sb-m h-full container">
 					<div class="left-top-bar">
-						Free shipping for standard order over $100
+						Thư viện sách trường Đại Học Vinh
 					</div>
 
 					<div class="right-top-bar flex-w h-full">
@@ -48,17 +48,17 @@
             if (sMenu.Count == 0)
             {
                 <li>
-                    <a href="@menu.MenuID">@menu.MenuName</a>
+                    <a href="@menu.ActionName">@menu.MenuName</a>
                 </li>
             }
             else
             {
                 <li>
-                    <a href="@menu.MenuID">@menu.MenuName</a>
+                    <a href="@menu.ActionName">@menu.MenuName</a>
                     <ul class="sub-menu">
                         @foreach (var smn in sMenu)
                         {
-                            <li><a href="@smn.MenuID">@smn.MenuName</a></li>
+                            <li><a href="@smn.ActionName">@smn.MenuName</a></li>
                         }
                     </ul>
                 </li>
@@ -122,7 +122,7 @@
 			<ul class="topbar-mobile">
 				<li>
 					<div class="left-top-bar">
-						Free shipping for standard order over $100
+						Thư viện sách trường Đại Học Vinh
 					</div>
 				</li>
 

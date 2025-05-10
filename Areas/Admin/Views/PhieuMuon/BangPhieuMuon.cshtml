@@ -58,7 +58,7 @@
         </div>
     </main>
  *@
- @using aznews.Models
+ @* @using aznews.Models
 @model IList<tblPhieuMuon>
 
 @{
@@ -95,7 +95,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach (var item in Model.Where(p => p.TrangThai == "Pending").ToList())
+                                    @foreach (var item in Model.Where(p => p.TrangThai == "Pending"))
                                     {
                                         <tr>
                                             <td class="text-center">@item.ID_PM</td>
@@ -139,8 +139,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach (var item in Model.Where(p => p.TrangThai == "Approved" && (p.NgayTra >= DateTime.Now)).ToList())
-
+                                    @foreach (var item in Model.Where(p => p.TrangThai == "Approved"))
                                     {
                                         <tr>
                                             <td class="text-center">@item.ID_PM</td>
@@ -159,9 +158,16 @@
                             </table>
                         </div>
                     </div>
-                     <!-- BẢNG PHIẾU MƯỢN QUÁ HẠN -->
-                    <h4>Phiếu mượn quá hạn</h4>
-                    <div class="card recent-sales overflow-auto">
+
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+ *@
+@model IList<aznews.Models.tblPhieuMuon>
+
+ <div class="card recent-sales overflow-auto mb-4">
                         <div class="card-body mt-4">
                             <table class="table table-borderless datatable">
                                 <thead>
@@ -176,8 +182,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach (var item in Model.Where(p => p.TrangThai == "Approved" && (p.NgayTra < DateTime.Now)).ToList())
-
+                                    @foreach (var item in Model.Where(p => p.TrangThai == "Pending"))
                                     {
                                         <tr>
                                             <td class="text-center">@item.ID_PM</td>
@@ -187,8 +192,15 @@
                                             <td class="text-center">@item.NgayTra?.ToString("dd/MM/yyyy")</td>
                                             <td class="text-center">@item.TrangThai</td>
                                             <td class="text-center">
-                                                <a asp-action="Edit" asp-route-id="@item.ID_PM" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></a>
-                                                <a asp-action="DeleteP" asp-route-id="@item.ID_PM" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></a>
+                                                <a asp-action="Edit" asp-route-id="@item.ID_PM" class="btn btn-primary btn-sm" title="Sửa"><i class="bi bi-pencil"></i></a>
+                                                <a asp-action="DeleteP" asp-route-id="@item.ID_PM" class="btn btn-danger btn-sm" title="Xoá"><i class="bi bi-trash"></i></a>
+
+                                                <form asp-action="Approve" method="post" class="d-inline">
+                                                    <input type="hidden" name="id" value="@item.ID_PM" />
+                                                    <button type="submit" class="btn btn-success btn-sm" onclick="return confirm('Xác nhận duyệt phiếu mượn này?')">
+                                                        <i class="bi bi-check-circle"></i>
+                                                    </button>
+                                                </form>
                                             </td>
                                         </tr>
                                     }
@@ -196,42 +208,4 @@
                             </table>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-    </div>
-</main>
-
-@* @using aznews.Models
-@model IList<tblPhieuMuon>
-
-@{
-    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
-
-    var pendingList = Model.Where(p => p.TrangThai == "Pending").ToList();
-    var approvedList = Model.Where(p => p.TrangThai == "Approved" && (p.NgayTra >= DateTime.Now)).ToList();
-    var overdueList = Model.Where(p => p.TrangThai == "Approved" && (p.NgayTra < DateTime.Now)).ToList();
-}
-
-<main id="main" class="main">
-    <div class="pagetitle">
-        <h2>Danh sách phiếu mượn</h2>
-        <a type="button" class="btn btn-success" asp-area="Admin" asp-controller="PhieuMuon" asp-action="Create">
-            <i class="bi bi-file-earmark-text me-1"></i>Thêm phiếu mượn
-        </a>
-    </div>
-
-    <!-- ===== Bảng PENDING ===== -->
-    <h4 class="mt-4">📋 Phiếu mượn chờ duyệt</h4>
-    @Html.Partial("BangPhieuMuon", pendingList)
-
-    <!-- ===== Bảng APPROVED ===== -->
-    <h4 class="mt-5">✅ Phiếu mượn đã duyệt</h4>
-    @Html.Partial("BangPhieuMuon", approvedList)
-
-    <!-- ===== Bảng OVERDUE ===== -->
-    <h4 class="mt-5 text-danger">⏰ Phiếu mượn quá hạn</h4>
-    @Html.Partial("BangPhieuMuon", overdueList)
-</main> *@
-
 

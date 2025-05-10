@@ -1,4 +1,4 @@
-@model IEnumerable<aznews.ViewModels.DanhMucMenuVM>
+@* @model IEnumerable<aznews.ViewModels.DanhMucMenuVM>
 
 <div class="flex-w flex-l-m filter-tope-group m-tb-10">
     <a class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" asp-controller="Sanpham" asp-action="Index">
@@ -15,4 +15,117 @@
             </li>
         }
     </ul>
+</div>
+
+<!-- Filter -->
+<div class="dis-none panel-filter w-full p-t-10">
+    <div class="wrap-filter flex-w bg6 w-full p-lr-40 p-t-27 p-lr-15-sm">
+        <div class="filter-col4 p-r-15 p-b-27">
+            <div class="mtext-102 cl2 p-b-15">
+                Danh mục sách
+            </div>
+            <ul>
+                <li class="p-b-6">
+                    <a class="filter-link stext-106 trans-04 @(ViewBag.Loai == null ? "filter-link-active" : "")"
+                       asp-controller="Sanpham" asp-action="Index">
+                        Tất cả sách
+                    </a>
+                </li>
+                @foreach (var item in Model)
+                {
+                    <li class="p-b-6">
+                        <a class="filter-link stext-106 trans-04 @(ViewBag.Loai == item.MaMuc ? "filter-link-active" : "")"
+                           asp-controller="Sanpham" asp-action="Index" asp-route-loai="@item.MaMuc">
+                            @item.TenMuc
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div> *@
+@model IEnumerable<aznews.ViewModels.DanhMucMenuVM>
+
+<!-- Nút hiển thị lọc (tùy chọn cho mobile) -->
+@* <button class="btn-show-filter stext-106 trans-04 ">Lọc danh mục</button> *@
+
+<!-- Filter -->
+<div class="dis-none panel-filter w-full p-t-10">
+    <div class="wrap-filter flex-w bg6 w-full p-lr-40 p-t-27 p-lr-15-sm">
+        @{
+            var danhMuc = Model.ToList();
+            int totalItems = danhMuc.Count;
+            int itemsPerColumn = (int)Math.Ceiling(totalItems / 4.0);
+        }
+
+        <!-- Cột 1 -->
+        <div class="filter-col1 p-r-15 p-b-27">
+           
+            <ul>
+                <li class="p-b-6">
+                    <a class="filter-link stext-106 trans-04 @(ViewBag.Loai == null ? "filter-link-active" : "")"
+                       asp-controller="Sanpham" asp-action="Index">
+                        Tất cả sách
+                    </a>
+                </li>
+                @for (int i = 0; i < itemsPerColumn && i < totalItems; i++)
+                {
+                    <li class="p-b-6">
+                        <a class="filter-link stext-106 trans-04 @(ViewBag.Loai == danhMuc[i].MaMuc ? "filter-link-active" : "")"
+                           asp-controller="Sanpham" asp-action="Index" asp-route-loai="@danhMuc[i].MaMuc">
+                            @danhMuc[i].TenMuc
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <!-- Cột 2 -->
+        <div class="filter-col2 p-r-15 p-b-27">
+           
+            <ul>
+                @for (int i = itemsPerColumn; i < 2 * itemsPerColumn && i < totalItems; i++)
+                {
+                    <li class="p-b-6">
+                        <a class="filter-link stext-106 trans-04 @(ViewBag.Loai == danhMuc[i].MaMuc ? "filter-link-active" : "")"
+                           asp-controller="Sanpham" asp-action="Index" asp-route-loai="@danhMuc[i].MaMuc">
+                            @danhMuc[i].TenMuc
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <!-- Cột 3 -->
+        <div class="filter-col3 p-r-15 p-b-27">
+           
+            <ul>
+                @for (int i = 2 * itemsPerColumn; i < 3 * itemsPerColumn && i < totalItems; i++)
+                {
+                    <li class="p-b-6">
+                        <a class="filter-link stext-106 trans-04 @(ViewBag.Loai == danhMuc[i].MaMuc ? "filter-link-active" : "")"
+                           asp-controller="Sanpham" asp-action="Index" asp-route-loai="@danhMuc[i].MaMuc">
+                            @danhMuc[i].TenMuc
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <!-- Cột 4 -->
+        <div class="filter-col4 p-b-27">
+          
+            <ul>
+                @for (int i = 3 * itemsPerColumn; i < totalItems; i++)
+                {
+                    <li class="p-b-6">
+                        <a class="filter-link stext-106 trans-04 @(ViewBag.Loai == danhMuc[i].MaMuc ? "filter-link-active" : "")"
+                           asp-controller="Sanpham" asp-action="Index" asp-route-loai="@danhMuc[i].MaMuc">
+                            @danhMuc[i].TenMuc
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
 </div>

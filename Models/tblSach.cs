@@ -27,7 +27,7 @@ namespace aznews.Models
         public string? Hinh { get; set; }
         public string? SoTrang { get; set; }
         [NotMapped]
-public int SoLuong { get; set; }
+        public int SoLuong { get; set; }
 
 
         [ValidateNever]

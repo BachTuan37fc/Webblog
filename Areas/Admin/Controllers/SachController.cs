@@ -23,12 +23,6 @@ namespace aznews.Areas.Admin.Controllers
         {
             _context = context;
         }
-
-        // public IActionResult Index()
-        // {
-        //     var mnList = _context.Sachs.OrderBy(m => m.ID_Sach).ToList();
-        //     return View(mnList);
-        // }
         public IActionResult Index()
 {
     var sachList = _context.Sachs
@@ -98,45 +92,7 @@ namespace aznews.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-//         public async Task<IActionResult> Create(tblSach ss, IFormFile Hinh)
-//         {
-//             if(ModelState.IsValid)
-//             {
-//                 if (Hinh != null && Hinh.Length > 0)
-//                 {
-//                     var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Image"); 
-//                     Directory.CreateDirectory(uploadsFolder);
-
-//                     var fileName = Guid.NewGuid().ToString() + Path.GetExtension(Hinh.FileName);
-//                     var filePath = Path.Combine(uploadsFolder, fileName);
-
-//                     using (var stream = new FileStream(filePath, FileMode.Create))
-//                     {
-//                         await Hinh.CopyToAsync(stream);
-//                     }
-
-//                     ss.Hinh = fileName;
-//                 }
-//                 _context.Sachs.Add(ss);
-//                 _context.SaveChanges();
-//                 return RedirectToAction("Index");
-//             }
-
-//                 Console.WriteLine("123");
-//                 foreach (var entry in ModelState)
-// {
-//     foreach (var error in entry.Value.Errors)
-//     {
-//         Console.WriteLine($"Field: {entry.Key}, Error: {error.ErrorMessage}");
-//     }
-// }
-            
-//             return RedirectToAction("Index");
-//             return View(ss);
-//         }
-
-[HttpPost]
-public async Task<IActionResult> Create(tblSach ss, IFormFile Hinh)
+        public async Task<IActionResult> Create(tblSach ss, IFormFile Hinh)
 {
     if (ModelState.IsValid)
     {
@@ -156,7 +112,7 @@ public async Task<IActionResult> Create(tblSach ss, IFormFile Hinh)
         _context.Sachs.Add(ss);
         _context.SaveChanges();
 
-        // Lấy ID sách vừa thêm
+       
         int idSachMoi = ss.ID_Sach;
 
         // Thêm n bản ghi vào bảng tblMaCaBiet
@@ -209,44 +165,6 @@ public IActionResult Edit(int? id)
     return View(sach);
 }
 
-// [HttpPost]
-// public async Task<IActionResult> Edit(int id, tblSach ss, IFormFile? Hinh)
-// {
-//             if(ModelState.IsValid)
-//             {
-//                 if (Hinh != null && Hinh.Length > 0)
-//                 {
-//                     var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Image"); 
-//                     Directory.CreateDirectory(uploadsFolder);
-
-//                     var fileName = Guid.NewGuid().ToString() + Path.GetExtension(Hinh.FileName);
-//                     var filePath = Path.Combine(uploadsFolder, fileName);
-
-//                     using (var stream = new FileStream(filePath, FileMode.Create))
-//                     {
-//                         await Hinh.CopyToAsync(stream);
-//                     }
-
-//                     ss.Hinh = fileName;
-//                 }
-//                 _context.Sachs.Update(ss);
-//                 _context.SaveChanges();
-//                 return RedirectToAction("Index");
-//             }
-
-//                 Console.WriteLine("123");
-//                 foreach (var entry in ModelState)
-// {
-//     foreach (var error in entry.Value.Errors)
-//     {
-//         Console.WriteLine($"Field: {entry.Key}, Error: {error.ErrorMessage}");
-//     }
-// }
-            
-//             return RedirectToAction("Index");
-//             return View(ss);
-
-//     }
 [HttpPost]
 public async Task<IActionResult> Edit(int id, tblSach ss, IFormFile? Hinh)
 {

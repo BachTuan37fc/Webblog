@@ -69,6 +69,12 @@ namespace aznews.ViewModels
         public DateTime? NgayTra { get; set; }
         public string? TrangThai {get; set; }
 }
-
+public class DashboardViewModel
+{
+    public int TotalBooks { get; set; }
+    public int TotalBooksBorrowed { get; set; }
+    public int TotalBooksPendingApproval { get; set; }
+    public int TotalBooksOverdue { get; set; }
+}
     } 
 }
