@@ -1,55 +1,39 @@
-@model aznews.Models.tblSach
-@{
-    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
-}
+@model aznews.Models.tblPhieuMuon
 
 <main id="main" class="main">
     <div class="pagetitle">
-        <h2>Add a menu item</h2>
+        <h2>Edit Phieu Mượn</h2>
     </div>
 
     <div class="container shadow p-5">
-        <form method="post" asp-area="Admin" asp-action="Edit" asp-controller="Sach" enctype="multipart/form-data">
+        <form method="post" asp-area="Admin" asp-action="Edit" asp-controller="PhieuMuon" >
             <div class="form-row">
-                <div class="form-group col-md-6 mb-3">
-                    <label>Ten Sach</label>
-                    <input type="text" class="form-control" asp-for="TenSach" placeholder="Menu name...">
-                    <span asp-validation-for="TenSach" class="alert-danger"></span>
-                </div>
-                <div class="form-group col-md-6 mb-3">
-                    <label>TacGia</label>
-                    <input type="text" class="form-control" asp-for="TacGia" placeholder="Enter the TacGia...">
-                </div>
                 
                 <div class="form-group col-md-6 mb-3">
-                    <label>NamXB</label>
-                    <input type="text" class="form-control" asp-for="NamXB"  placeholder="Enter the order of item...">
+                    <label>MaDG</label>
+                    <input type="text" class="form-control" asp-for="MaDG" />
+                </div>
+
+                @* <div class="form-group col-md-6 mb-3">
+                    <label>NgayMuon</label>
+                    <input type="datetime-local" class="form-control" asp-for="NgayMuon" value="@Model.NgayMuon.ToString("yyyy-MM-ddTHH:mm")" readonly />
+                </div> *@
+
+                <div class="form-group col-md-6 mb-3">
+                    <label>Ngày Trả</label>
+                    <input type="date" class="form-control" asp-for="NgayTra" />
                 </div>
 
                 <div class="form-group col-md-6 mb-3">
-                    <label>MoTa</label>
-                    <input type="text" class="form-control" asp-for="MoTa"  placeholder="Enter the MoTa...">
-                </div> 
-                <div class="form-group col-md-6 mb-3">
-                    <label>NXB</label>
-                    <select asp-for="ID_NXB" class="form-control"
+                    <label>TenSach</label>
+                    @* <select asp-for="@Model.IdMCBNavigation.IdSachNavigation.TenSach" class="form-control"
                             asp-items="@(new SelectList(ViewBag.mnList, "Value", "Text"))">
-                    </select>
-                </div>
-                <div class="form-group col-md-6 mb-3">
-                    <label>Danh Muc</label>
-                    <select asp-for="ID_DM" class="form-control"
-                            asp-items="@(new SelectList(ViewBag.sList, "Value", "Text"))">
-                    </select>
-                </div>
-                <div class="form-group col-md-6 mb-3">
-                    <label>Hinh</label>
-                    <input type="file" class="form-control" name="Hinh" accept="image/*">
-                </div> 
-            
+                    </select> *@
+                    <select name="ID_Sach" class="form-control" asp-items="ViewBag.mnList">
+</select>
             </div>
 
-            <a asp-controller="Menu" asp-action="Index" class="btn btn-lg btn-warning p-2">
+            <a asp-controller="PhieuMuon" asp-action="Index" class="btn btn-lg btn-warning p-2">
                 <i class="bi bi-arrow-left-circle"></i> Go back
             </a>
 

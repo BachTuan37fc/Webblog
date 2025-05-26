@@ -35,10 +35,17 @@
 	<link rel="stylesheet" type="text/css" href="~/assets/css/main.css">
 	@RenderSection("Styles", required: false)
 <!--===============================================================================================-->
+<style>
+       body, p, a, span, li, div {
+    font-size: 1.0rem !important;
+}
+
+    </style>
 </head>
+
 <body class="animsition">
 	
-@await Component.InvokeAsync("MenuView");
+@await Component.InvokeAsync("MenuView")
 	<!-- Cart -->
 	<div class="wrap-header-cart js-panel-cart">
 		<div class="s-full js-hide-cart"></div>

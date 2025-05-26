@@ -21,6 +21,7 @@ namespace aznews.Models
         public DbSet<tblSach> Sachs { get; set;}
         public DbSet<tblDanhMuc> DanhMucs { get; set;}
         public DbSet<tblPhieuMuon> PhieuMuons { get; set;}
+        public DbSet<tblUser> Users { get; set;}
         
     }
 }

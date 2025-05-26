@@ -86,7 +86,7 @@ namespace aznews.Areas.Admin.Controllers
 
 
     [HttpPost]
-    public IActionResult Create(int ID_Sach)
+    public IActionResult Create(int ID_Sach, string NgayTra)
 {
     // Tìm mã cá biệt chưa được mượn
     var phieumuon = _context.MaCaBiets
@@ -98,13 +98,14 @@ namespace aznews.Areas.Admin.Controllers
         TempData["Error"] = "Không còn bản sao sách này có sẵn để mượn";
         return RedirectToAction("Index", new { id = ID_Sach });
     }
+
     var pm = new tblPhieuMuon
     {
         ID_MCB = phieumuon.ID_MCB,
         NgayMuon = DateTime.Now,
-        NgayTra = DateTime.Now.AddDays(7), // hoặc quy định khác
+        NgayTra = DateTime.Parse(NgayTra), // hoặc quy định khác
         TrangThai = "Approved",
-        MaDG = "1"
+        MaDG = "docgia"
     };
 
     // Cập nhật trạng thái mã cá biệt
@@ -136,5 +137,52 @@ namespace aznews.Areas.Admin.Controllers
     return RedirectToAction(nameof(Index));
 }
 
+public IActionResult Edit(int? id)
+{
+    if (id == null || id == 0)
+        return NotFound();
+
+    var phieuMuon = _context.PhieuMuons
+        .Include(pm => pm.IdMCBNavigation)
+        .ThenInclude(mcb => mcb.IdSachNavigation)
+        .SingleOrDefault(pm => pm.ID_PM == id);
+
+    if (phieuMuon == null)
+        return NotFound();
+
+    // Cung cấp danh sách sách cho view
+    ViewBag.mnList = _context.Sachs
+        .Where(s => _context.MaCaBiets.Any(mcb => mcb.ID_Sach == s.ID_Sach && mcb.TrangThai == "Chưa mượn"))
+        .Select(s => new SelectListItem
+        {
+            Text = s.TenSach,
+            Value = s.ID_Sach.ToString()
+        }).ToList();
+
+    return View(phieuMuon);
+}
+[HttpPost]
+[ValidateAntiForgeryToken]
+public IActionResult Edit(tblPhieuMuon phieuMuon)
+{
+    if (ModelState.IsValid)
+    {
+        _context.PhieuMuons.Update(phieuMuon);
+        _context.SaveChanges();
+        return RedirectToAction("Index");
     }
+    // Nếu có lỗi, trả về lại trang Edit
+    ViewBag.mnList = _context.Sachs
+        .Where(s => _context.MaCaBiets.Any(mcb => mcb.ID_Sach == s.ID_Sach && mcb.TrangThai == "Chưa mượn"))
+        .Select(s => new SelectListItem
+        {
+            Text = s.TenSach,
+            Value = s.ID_Sach.ToString()
+        }).ToList();
+
+    return View(phieuMuon);
+}
+
+    }
+
 }

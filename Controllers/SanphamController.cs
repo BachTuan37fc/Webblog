@@ -32,8 +32,9 @@ namespace aznews.Controllers
             ID = p.ID_Sach,
             TenSP = p.TenSach,
             Hinh = p.Hinh ?? ""
-    
+            
         });
+        
         return View(result);
     }  
     public IActionResult Search(string? query) 
@@ -94,7 +95,7 @@ public IActionResult Muon(int ID_Sach)
         NgayMuon = DateTime.Now,
         NgayTra = DateTime.Now.AddDays(7), // hoặc quy định khác
         TrangThai = "Pending",
-        MaDG = "1"
+        MaDG = "docgia"
     };
 
     // Cập nhật trạng thái mã cá biệt

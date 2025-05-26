@@ -13,6 +13,7 @@ using static aznews.ViewModels.SachVM;
 namespace aznews.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "admin")]
     public class HomeController : Controller
     {
         private readonly DataContext _context;
@@ -22,7 +23,8 @@ namespace aznews.Areas.Admin.Controllers
         }
        public IActionResult Index() 
         {
-   
+
+
         var totalBooksBorrowed = _context.PhieuMuons.Count(pm => pm.TrangThai == "Approved" && pm.NgayTra >= DateTime.Now);
         var totalBooksPendingApproval = _context.PhieuMuons.Count(pm => pm.TrangThai == "Pending");
         var totalBooksOverdue = _context.PhieuMuons.Count(pm => pm.NgayTra < DateTime.Now && pm.TrangThai == "Approved");

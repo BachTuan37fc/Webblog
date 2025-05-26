@@ -1,0 +1,58 @@
+@using aznews.Models;
+@model IList<tblUser>
+    
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<main id="main" class="main">
+        <div class="pagetitle">
+            <h2>Danh Sách Người Dùng</h2>
+
+            <p>
+                <a type="button" class="btn btn-success" asp-area="Admin" asp-controller="User" asp-action="Create">
+                    <i class="bi bi-file-earmark-text me-1"></i>Thêm người dùng</a>
+                    <section class="section dashboard">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="car recent-sales overflow-auto">
+                                    <div class="card-body mt-4">
+                                        <table class="table table-borderless datatable">
+                                            <thead>
+                                                <tr>
+                                                    
+                                                    <th class="col-3 text-center">MaDG</th>
+                                                    <th class="col-2 text-center">Email</th>
+                                                    <th class="col-2 text-center">Password</th>
+                                                    <th class="col-1 text-center">Role</th>
+                                                   
+                                                    <th class="col-1 text-center">Functions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach(var item in Model) 
+                                                {
+                                                    <tr>
+                                                        <td class="text-center" scope="row">@item.MaDG</td>
+                                                        
+                                                           
+                                                        <td class="text-center" scope="row">@item.Email</td>
+                                                        <td class="text-center" scope="row">@item.Password</td>
+                                                        <td class="text-center" scope="row">@item.Role</td>
+                                          
+                                                        <td class="text-center" scope="row">
+                                                                <a asp-area="Admin" asp-controller="User" asp-action="Edit" asp-route-id="@item.MaDG" class="btn btn-primary btn-sm" title="Edit the Menu"><i class="bi bi-pencil"></i></a>
+                                                                <a asp-area="Admin" asp-controller="User" asp-action="Delete" asp-route-id="@item.MaDG" class="btn btn-danger btn-sm" title="Delete the Menu"><i class="bi bi-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+            </p>
+        </div>
+    </main>

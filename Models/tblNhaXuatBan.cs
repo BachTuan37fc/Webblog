@@ -12,6 +12,9 @@ namespace aznews.Models
     {
         [Key]
         public int ID_NXB { get; set; }
-        public string? TenNXB { get; set; }  
+        public string? TenNXB { get; set; }
+        public string? DiaChi { get; set; }
+        public string? Email { get; set; }
+        public string? SDT { get; set; }  
     }
 }

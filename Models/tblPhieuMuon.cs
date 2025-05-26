@@ -12,8 +12,7 @@ namespace aznews.Models
     {
         [Key]
         public int ID_PM { get; set; }
-
-        [Column("MaDG")]
+        [ForeignKey("IdUserNavigation")]
         public string? MaDG { get; set; }
         [ForeignKey("IdMCBNavigation")]
         public int? ID_MCB { get; set; }
@@ -22,5 +21,6 @@ namespace aznews.Models
         public string? TrangThai {get; set; }
 
         public virtual tblMaCaBiet IdMCBNavigation { get; set; }
+        public virtual tblUser IdUserNavigation { get; set; }
     }
 }

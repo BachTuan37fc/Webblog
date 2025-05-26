@@ -13,6 +13,7 @@ namespace aznews.ViewModels
         public string? Hinh { get; set; }
         public string? DanhMuc { get; set; }
         public int Soluong { get; set; }
+        
     }
 
     public class CTSanPhamVM
@@ -58,6 +59,8 @@ namespace aznews.ViewModels
 {
     public tblSach Sachs { get; set; }
     public int SoLuongChuaMuon { get; set; }
+    public int Total { get; set; }
+
 }
 
  public class PhieuMuonVM
