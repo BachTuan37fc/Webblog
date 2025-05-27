@@ -28,39 +28,39 @@ namespace aznews.Areas.Admin.Controllers
 
         public IActionResult Delete(string id)
         {
-             if (string.IsNullOrEmpty(id))
+            if (string.IsNullOrEmpty(id))
                 return NotFound();
 
             var user = _context.Users.FirstOrDefault(u => u.MaDG == id);
             if (user == null)
                 return NotFound();
-                return View(user);
+            return View(user);
         }
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(string id)
         {
-           var user = _context.Users.FirstOrDefault(u => u.MaDG == id);
+            var user = _context.Users.FirstOrDefault(u => u.MaDG == id);
             if (user == null)
                 return NotFound();
 
             _context.Users.Remove(user);
             _context.SaveChanges();
-        return RedirectToAction("Index");
+            return RedirectToAction("Index");
         }
 
         public IActionResult Create()
         {
             var mnList = (from m in _context.Users
-                         select new SelectListItem()
-                         {
-                            Text = m.MaDG,
-                            Value = m.MaDG.ToString()
-                         }).ToList();
+                          select new SelectListItem()
+                          {
+                              Text = m.MaDG,
+                              Value = m.MaDG.ToString()
+                          }).ToList();
             mnList.Insert(0, new SelectListItem()
             {
                 Text = "--- select ---",
                 Value = "0"
-            
+
             });
             ViewBag.mnList = mnList;
             return View();
@@ -68,13 +68,13 @@ namespace aznews.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Create(tblUser mn)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _context.Users.Add(mn);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
-            
+
             return View(mn);
         }
 
@@ -97,7 +97,7 @@ namespace aznews.Areas.Admin.Controllers
         //     {
         //         Text = "--- select ---",
         //         Value = "0"
-            
+
         //     });
         //     ViewBag.mnList = mnList;
         //     return View(mn);
@@ -111,8 +111,9 @@ namespace aznews.Areas.Admin.Controllers
         //         _context.SaveChanges();
         //         return RedirectToAction("Index");
         //     }
-            
+
         //     return View(mn);
         // }
+    
     }
 }

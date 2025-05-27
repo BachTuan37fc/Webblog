@@ -66,6 +66,7 @@ public class LoginController : Controller
 
     public async Task<IActionResult> Logout()
     {
+        
         await HttpContext.SignOutAsync("MyCookie");
         return RedirectToAction("Login");
     }
